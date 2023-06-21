@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/generet.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hedera-back">
+        <div class="title">
+            <h1>Strong Password Generator</h1>
+        </div>
+        <div class="input-password">
+            <input id="InputValue" type="text"  readonly>
+        </div>
+        
+        <div class="btn">
+            <button  id="GeneretPassword" onclick="generatesPasswordBtn()" type="button">Generator Password</button>
+        </div>
+        <div class="copy">
+            <button id="CopyPassword"  type="button">Copy Password</button>
+        </div>
+        <p id="alert-wrong" class="p-mesaji"></p>
+        <h3 class="first-msg" id="msg-first">Press the password generation button and then press copy</h3>
+        <h2 class="MsgCopyAlert" id="Msg-copied-Alert">Copied password</h2>
+    </div>
+
+
+    <script src="/generetKey.js"></script>
+    
+</body>
+</html>
